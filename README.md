@@ -57,6 +57,7 @@ and they lived at the bottom of a well.</p>
 ```
 
 ## Using the html_doc in BeautifulSoup
+
 ```python
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(html_doc, 'html.parser')
