@@ -14,9 +14,8 @@ We are going to use BueatifulSoup for `Web Scraping`.
 1. **[Prettify Function ](#prettify-function)**
 1. **[Fetching Tag ](#prettify-function)**
 1. **[Fetching all occurance of Tag ](#fetching-all-occurance-of-a-tag)**
-1. **[Fetching all Attribute from Tag ](#fetching-attributes-from-tag)**
-
-
+1. **[Fetching  Attribute and Values  from Tag ](#fetching-attributes-from-tag)**
+1. **[Fetching Text from Tags ](#fetching-text-from-tags)**
 
 
 ## Installing the BeautifulSoup Liberary for python.
@@ -197,13 +196,63 @@ soup.a.attrs
 ```
 **Case 2** :
 
+`soup.tag_name['attribute']` returns the value of attribute for the tag you have specified in place of `tag_name`.
+
+**Sample 1**
 ```python
 soup.p['class']
 ```
-This returns the class name of the `first occuring` paragraph tag.<br>
+
 `Output` :
 ```
 title
 ```
+**Sample 2**
+```python
+soup.a['id']
+```
+`Output` :
+```python
+link1
+```
+**Sample 3**
+```python
+soup.a['href']
+```
+`Output` :
+```python
+http://example.com/elsie
+```
 
+## Fetching Text from Tags
 
+**Case 1** :
+
+Using the `get_text` function you can get all the text from `html_doc`.
+```python
+soup.get_text()
+```
+`Output` :
+```python 
+The Dormouse's story
+
+The Dormouse's story
+Once upon a time there were three little sisters; and their names were
+Elsie,
+Lacie and
+Tillie;
+and they lived at the bottom of a well.
+The End
+```
+
+**Case 2** :
+
+`soup.tag_name.string` this return the text of first occuring tag that you specify in place of `tag_name`.
+
+```python
+soup.p.string
+```
+`Output` :
+```python
+The Dormouse's story
+```
