@@ -56,7 +56,7 @@ and they lived at the bottom of a well.</p>
 """
 ```
 
-## Using the `html_doc` in BeautifulSoup
+## Using the html_doc in BeautifulSoup
 ```python
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(html_doc, 'html.parser')
@@ -179,7 +179,7 @@ and they lived at the bottom of a well.</p>, <p class="story">The End</p>]
 
 
 
-## Fetching `Attributes` and their` Values` from Tag
+## Fetching Attributes and their Values from Tag
 
 
 **Case 1** :
