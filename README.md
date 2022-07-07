@@ -8,12 +8,12 @@ We are going to use BueatifulSoup for `Web Scraping`.
 ## Index
 1. **[Installing Library](#installing-the-beautifulsoup-liberary-for-pythonbrbr)**
 1. **[Importing BeautifulSoup](#importing-the-beautifulsoup-in-python-ide)**
-1. **[Fetching the HTML Script from Web](#getting-the-html-script-from-web-page)**
+1. **[Fetching the HTML Script from Web](#fetching-the-html-script-from-web-page)**
 1. **[Using BeautifulSoup](#using-the-htmldoc-in-beautifulsoup)**
 1. **[Prettify Function ](#prettify-function)**
-1. **[Fetching Tag ](#prettify-function)**
+1. **[Fetching Tag ](#fetching-tags)**
 1. **[Fetching all occurance of Tag ](#fetching-all-occurance-of-a-tag)**
-1. **[Fetching  Attribute and Values  from Tag ](#fetching-attributes-from-tag)**
+1. **[Fetching  Attribute and Values  from Tag ](#fetching-attributes-and-their-values-from-tag)**
 1. **[Fetching Text from Tags ](#fetching-text-from-tags)**
 
 
@@ -112,7 +112,7 @@ This function show your html script present in `html_docs` in well indented and 
 </html>
 ```
 
-##  Fetching the Tags
+##  Fetching Tags
 **Case 1** :
 
 You can fetch the Tags using `soup.tag_name `. It return the first occurance of that perticular tag.
