@@ -9,7 +9,7 @@ We are going to use BueatifulSoup for `Web Scraping`.
 1. **[Installing Library](#installing-the-beautifulsoup-liberary-for-pythonbrbr)**
 1. **[Importing BeautifulSoup](#importing-the-beautifulsoup-in-python-ide)**
 1. **[Fetching the HTML Script from Web](#fetching-the-html-script-from-web-page)**
-1. **[Using BeautifulSoup](#using-the-htmldoc-in-beautifulsoup)**
+1. **[Using BeautifulSoup](#using-the-html_doc-in-beautifulsoup)**
 1. **[Prettify Function ](#prettify-function)**
 1. **[Fetching Tag ](#fetching-tags)**
 1. **[Fetching all occurance of Tag ](#fetching-all-occurance-of-a-tag)**
