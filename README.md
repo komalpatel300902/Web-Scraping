@@ -1,5 +1,10 @@
 # Web Scraping
 
+` Web Scraping` is a technique employed to extract large amounts of data from websites where by the data is extracted and saved to a local file in your computer or to a database in table (spreadsheet) format.
+
+
+We are going to use BueatifulSoup for `Web Scraping`.
+
 ## Index
 1. **[Installing Library](#installing-the-beautifulsoup-liberary-for-pythonbrbr)**
 1. **[Importing BeautifulSoup](#importing-the-beautifulsoup-in-python-ide)**
@@ -13,10 +18,6 @@
 
 
 
-` Web Scraping` is a technique employed to extract large amounts of data from websites where by the data is extracted and saved to a local file in your computer or to a database in table (spreadsheet) format.
-
-
-We are going to use BueatifulSoup for `Web Scraping`.
 
 ## Installing the BeautifulSoup Liberary for python.
 
