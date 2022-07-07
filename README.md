@@ -30,6 +30,17 @@ pip install beautifulsoup4
 from bs4 import BeautifulSoup
 ```
 
+## Fetching the HTML Script from Web Page
+As it is web scraping you have to get the `html script` of Web Pages. You can get them by using request library :
+```python
+import requests
+url = "https://www.flipkart.com/"
+response = requests.get(url)
+html_doc = response.text
+```
+
+`html_doc`  in above code will have html script of that web page in String format.
+
 Let's start by taking a html script as string for simplicity.<br>
 `Note` : We use triple quote for multi-lined String.
 ```python
@@ -46,16 +57,6 @@ and they lived at the bottom of a well.</p>
 <p class="story">The End</p>
 """
 ```
-## Fetching the HTML Script from Web Page
-As it is web scraping you have to get the `html script` of Web Pages. You can get them by using request library :
-```python
-import requests
-url = "https://www.flipkart.com/"
-response = requests.get(url)
-html_doc = response.text
-```
-
-`html_doc`  in above code will have html script of that web page in String format.
 
 ## Using the `html_doc` in BeautifulSoup
 ```python
